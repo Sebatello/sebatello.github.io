@@ -1,18 +1,27 @@
 body {
   background-color: lightblue;
-
-}
-
-#container {
-  display: block;
-  margin: auto;
-
-
 }
 
 div {
   margin-bottom: 0.5%;
   border-radius: 15px;
+}
+
+p {
+  margin: 10px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+h1, h2 {
+  margin: 10px;
+}
+
+
+
+#container {
+  display: block;
+  margin: auto;
 }
 
 #header {
@@ -21,14 +30,21 @@ div {
   height: 150px;
 }
 #logo{
+  display: block;
   weight: 500px;
   height: 150px;
+  margin: auto;
+
 }
 #menu {
-  display: block;
+  display: flex;
   background-color: black;
   height: 50px;
+  align-items: center;
+  text-align: center;
+
 }
+
 #menutxt{
   font-weight: bold;
   color: white;
@@ -37,6 +53,7 @@ div {
   font-style: normal;
   text-decoration: none;
   text-shadow: 2px 2px 5px white;
+
 }
 #panel_lewy {
   display: inline-block;
