@@ -27,6 +27,7 @@ h1, h2 {
   background-color: black;
   height: 150px;
   background-image: url(coffebaner.png);
+  background-size: auto;
 }
 #logo{
   display: block;
