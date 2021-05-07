@@ -26,6 +26,10 @@ h1, h2 {
   display: block;
   background-color: black;
   height: 150px;
+  background-image: url('w3css.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 #logo{
   display: block;
