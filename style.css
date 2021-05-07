@@ -24,10 +24,11 @@ h1, h2 {
 
 #header {
   display: block;
-  background-color: black;
-  height: 150px;
   background-image: url(coffebaner.png);
   background-size: auto;
+  background-color: black;
+  height: 150px;
+  
 }
 #logo{
   display: block;
