@@ -17,8 +17,6 @@ h1, h2 {
   margin: 10px;
 }
 
-
-
 #container {
   display: block;
   margin: auto;
@@ -34,15 +32,16 @@ h1, h2 {
   weight: 500px;
   height: 150px;
   margin: auto;
-
 }
+
 #przycisk{
 filter: contrast(0)
         brightness(100);
-margin-left: auto;
+
 float: right;
 margin: 10px;
 }
+
 #menu {
   display: flex;
   background-color: black;
@@ -50,8 +49,6 @@ margin: 10px;
   align-items: center;
   text-align: center;
   justify-content: center;
-
-
 }
 
 #menutxt{
@@ -62,24 +59,30 @@ margin: 10px;
   font-style: normal;
   text-decoration: none;
   text-shadow: 2px 2px 5px white;
+}
+
+.col-container {
+  display: table;
+  width: 100%;
+  border-collapse:separate;
+  border-spacing: 5px;
+}
+.col {
+  display: table-cell;
 
 }
+
 #panel_lewy {
-  display: inline-block;
   background-color: #c24050;
-  height: 500px;
+  min-height: 500px;
   width: 74.75%;
-  float: left;
-  margin-right: 0.25%;
 }
 
 #panel_prawy {
-  display: inline-block;
   background-color: #c25000;
-  height: 500px;
+  min-height: 500px;
   width:24.75%;
-  float: right;
-  margin-left: 0.25%;
+
 }
 
 #footer {
