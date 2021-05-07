@@ -93,5 +93,8 @@ margin: 10px;
   clear:both;
   display: block;
   background-color: black;
-  height: 100px;
+  min-height: 150px;
+}
+#kontext{
+  color: white;
 }
