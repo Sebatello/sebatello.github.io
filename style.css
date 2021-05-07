@@ -36,6 +36,13 @@ h1, h2 {
   margin: auto;
 
 }
+#przycisk{
+filter: contrast(0)
+        brightness(100);
+margin-left: auto;
+float: right;
+margin: 10px;
+}
 #menu {
   display: flex;
   background-color: black;
