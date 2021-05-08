@@ -88,8 +88,11 @@ margin: 10px;
 
 #panel_lewy {
   background-color: #e0d7d8;
+  display: inline-block;
   min-height: 500px;
-  width: 74.75%;
+  width: 71.75%;
+  float: left;
+  margin-right:0.25%;
 }
 
 #panel_prawy {
