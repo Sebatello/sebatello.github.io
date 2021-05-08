@@ -1,5 +1,5 @@
 body {
-  background-color: #c1e0db;
+  background-color: ##FFFAF0;
 }
 
 div {
@@ -96,10 +96,47 @@ margin: 10px;
 }
 
 #panel_prawy {
-  background-color: #e0d7d8;
-  min-height: 500px;
-  width:24.75%;
+  display: inline-block;
+  background-color: white;
+  height: 390px;
+  width:25.75%;
+  float: right;
+  margin-left: 0.25%;
+  margin-right: 0.8%;
+  box-shadow: 6px 6px 4px 4px #AAAAAA;
+  border: 1px solid #000;
+}
+.blog1 p {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background-color: yellow;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  margin-left: 95px;
+  z-index: 3;
+}
+.blog2{
+  z-index: 2;
+  position: relative;
+  background-color: black;
+  width: 200px;
+  height: 50px;
+  margin-left: 105px;
+  margin-top: -60px;
+}
 
+#lista_art{
+  color: black;
+  background-color:white;
+  line-height: 200%;
+}
+
+#more{
+float: right;
+margin-right: 10px;
 }
 
 #footer {
