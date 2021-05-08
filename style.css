@@ -2,16 +2,23 @@ body {
   background-color: ##FFFAF0;
 }
 
-div {
-/*  margin-bottom: 0.5%; */
-}
-
 div #footer {
-  border-radius: 0px 0px 15px 15px;
+  border-radius: 15px;
+
 }
 
 div #header {
   border-radius: 15px 15px 0px 0px;
+}
+
+div #menu {
+  border-radius: 0px 0px 15px 15px;
+  margin-bottom: 1%;
+}
+
+div #panel_lewy {
+  border-radius: 15px;
+  margin-bottom: 1%;
 }
 
 p {
@@ -51,7 +58,6 @@ h1, h2 {
 #przycisk{
 filter: contrast(0)
         brightness(100);
-
 float: right;
 margin: 10px;
 }
@@ -65,7 +71,7 @@ margin: 10px;
   justify-content: center;
 }
 
-#menutxt{
+.menutxt {
   font-weight: bold;
   color: white;
   padding: 25px;
@@ -75,66 +81,77 @@ margin: 10px;
   text-shadow: 2px 2px 5px white;
 }
 
-.col-container {
-  display: table;
-  width: 100%;
-  border-collapse:separate;
-/*  border-spacing: 10px; */
-}
-.col {
-  display: table-cell;
-
+ a:hover.menutxt {
+transform: scale(1.1);
+color: #ebe707;
 }
 
 #panel_lewy {
   background-color: #e0d7d8;
   display: inline-block;
-  min-height: 500px;
-  width: 71.75%;
+  min-height: 660px;
+  width: 71.5%;
   float: left;
   margin-right:0.25%;
 }
 
 #panel_prawy {
+  background-image: url(paper_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;  /* zobacz czy to ma być z tym czy lepiej bez */
   display: inline-block;
   background-color: white;
-  height: 390px;
+  height: 300px;
   width:25.75%;
   float: right;
-  margin-left: 0.25%;
-  margin-right: 0.8%;
+  margin-left: 1%;
+  margin-right: 1%;
   box-shadow: 6px 6px 4px 4px #AAAAAA;
   border: 1px solid #000;
+  margin-bottom: 50px;
 }
-.blog1 p {
+
+#panel_prawy2 {
+  background-image: url(paper_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;  /* zobacz czy to ma być z tym czy lepiej bez */
+  display: inline-block;
+  background-color: white;
+  height: 300px;
+  width:25.75%;
+  float: right;
+  margin-left: 1%;
+  margin-right: 1%;
+  box-shadow: 6px 6px 4px 4px #AAAAAA;
+  border: 1px solid #000;
+  margin-bottom: 25px;
+}
+
+.blog  {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
   font-size: 20px;
   color: black;
   font-weight: bold;
+  align-items: center;
   text-align: center;
-  background-color: yellow;
-  width: 200px;
+  justify-content: center;
+  background-color: #ebe707;
+  width: 40%;
   height: 50px;
-  position: relative;
-  margin-left: 95px;
-  z-index: 3;
-}
-.blog2{
-  z-index: 2;
-  position: relative;
-  background-color: black;
-  width: 200px;
-  height: 50px;
-  margin-left: 105px;
-  margin-top: -60px;
 }
 
-#lista_art{
+.lista_art{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   color: black;
-  background-color:white;
   line-height: 200%;
 }
 
-#more{
+.more{
 float: right;
 margin-right: 10px;
 }
@@ -144,7 +161,7 @@ margin-right: 10px;
   display: block;
   background-color: black;
   text-align: center;
-  min-height: 150px;
+  min-height: 125px;
   color: white;
   padding: 10px;
 }
