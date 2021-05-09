@@ -1,3 +1,5 @@
+
+
 body {
   background-color: ##FFFAF0;
 }
@@ -18,7 +20,8 @@ div #menu {
 
 div #panel_lewy {
   border-radius: 15px;
-  margin-bottom: 1%;
+  margin-top: 1.5%;
+  margin-bottom: 2%;
 }
 
 p {
@@ -34,6 +37,7 @@ h1, h2 {
 #container {
   display: block;
   margin: auto;
+  max-width: 999px;
 }
 
 #header {
@@ -55,11 +59,16 @@ h1, h2 {
   margin:25px;
 }
 
-#przycisk{
+.przycisk{
 filter: contrast(0)
         brightness(100);
 float: right;
 margin: 10px;
+}
+
+a:hover.przycisk {
+  transform: scale(1.1);
+
 }
 
 #menu {
@@ -77,12 +86,12 @@ margin: 10px;
   padding: 25px;
   font-size: 20px;
   font-style: normal;
+
   text-decoration: none;
   text-shadow: 2px 2px 5px white;
 }
 
  a:hover.menutxt {
-transform: scale(1.1);
 color: #ebe707;
 }
 
@@ -104,23 +113,22 @@ color: #ebe707;
   height: 300px;
   width:25.75%;
   float: right;
-  margin-left: 1%;
   margin-right: 1%;
   box-shadow: 6px 6px 4px 4px #AAAAAA;
   border: 1px solid #000;
-  margin-bottom: 50px;
+  margin-top: 15px;
+  margin-bottom: 40px;
 }
 
 #panel_prawy2 {
   background-image: url(paper_background.jpg);
   background-repeat: no-repeat;
   background-size: cover;  /* zobacz czy to ma być z tym czy lepiej bez */
-  display: inline-block;
+  display: inline;
   background-color: white;
   height: 300px;
   width:25.75%;
   float: right;
-  margin-left: 1%;
   margin-right: 1%;
   box-shadow: 6px 6px 4px 4px #AAAAAA;
   border: 1px solid #000;
@@ -141,6 +149,9 @@ color: #ebe707;
   background-color: #ebe707;
   width: 40%;
   height: 50px;
+  box-shadow: 6px 6px 4px 4px black;
+
+
 }
 
 .lista_art{
@@ -148,12 +159,14 @@ color: #ebe707;
   text-align: center;
   justify-content: center;
   color: black;
-  line-height: 200%;
+  line-height: 70%;
 }
 
 .more{
 float: right;
 margin-right: 10px;
+color: black;
+
 }
 
 #footer {
@@ -163,10 +176,23 @@ margin-right: 10px;
   text-align: center;
   min-height: 125px;
   color: white;
-  padding: 10px;
+  padding: 5px;
 }
 
 #mail {
   color: white;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 750px) {
+  /* For mobile phones: */
+  #panel_lewy {
+    width: 100%; }
+  #menu {
+    height: 210px;
+    display: block;
+    width: 100%;
+    font-size: 28px;}
+  #panel_prawy, #panel_prawy2 {
+    width: 97%; }
+  }
