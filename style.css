@@ -51,7 +51,7 @@ h1, h2 {
 
 }
 .logo{
-  width: 100%;
+  width: 50%;
   max-width: 200px;
   max-height: 200px;
   float: left;
@@ -200,6 +200,13 @@ color: black;
   /* For mobile phones: */
   #panel_lewy {
     width: 100%; }
+     .logo {
+       max-width: 150px;
+       max-height: 150px;
+       float: left;
+       border-radius: 50%;
+       margin:50px 25px 25px 25px;
+    }
   #menu {
     align-items: center;
     text-align: center;
@@ -210,4 +217,5 @@ color: black;
     font-size: 28px;}
   #panel_prawy, #panel_prawy2 {
     width: 97%; }
+
   }
