@@ -71,6 +71,12 @@ a:hover.przycisk {
 
 }
 
+li {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
 #menu {
   display: flex;
   background-color: black;
@@ -86,7 +92,9 @@ a:hover.przycisk {
   padding: 25px;
   font-size: 20px;
   font-style: normal;
-
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   text-decoration: none;
   text-shadow: 2px 2px 5px white;
 }
