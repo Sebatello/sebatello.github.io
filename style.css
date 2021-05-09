@@ -202,7 +202,7 @@ color: black;
     align-items: center;
     text-align: center;
     justify-content: center;
-    height: 80px;
+    height: auto;
     display: block;
     width: 100%;
     font-size: 28px;}
