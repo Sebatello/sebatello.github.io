@@ -85,6 +85,8 @@ li {
   align-items: center;
   text-align: center;
   justify-content: center;
+  padding-bottom: 5px;
+
 }
 
 .menutxt {
