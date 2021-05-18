@@ -108,6 +108,16 @@ color: #ebe707;
 transform: scale(1.1);
 }
 
+table {
+  margin: auto;
+}
+
+th, td {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
 #panel_lewy {
   background-color: #e0d7d8;
   display: inline-block;
@@ -197,12 +207,14 @@ color: black;
   text-decoration: none;
 }
 
-
 @media only screen and (max-width: 750px) {
   /* For mobile phones: */
   #panel_lewy {
     width: 100%; }
 
+    table, thead, tbody, th, td, tr {
+		display:block;
+	}
 
   #menu {
     align-items: center;
